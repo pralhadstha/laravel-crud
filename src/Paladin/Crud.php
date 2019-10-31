@@ -1,6 +1,9 @@
 <?php
 namespace Paladin\Crud;
 
+use Paladin\Crud\Traits\ColumnTrait;
+use Paladin\Crud\Traits\QueryTrait;
+
 class Crud {
 
     use QueryTrait;
